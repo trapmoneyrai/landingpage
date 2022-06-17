@@ -80,7 +80,7 @@ footer {
     background-color: hsl(192, 100%, 9%);
     color: white;
     margin-top: -140px;
-    padding 180px 0 60px;
+    padding: 180px 0 60px;
     position: relative;
     z-index: -1;
 }
