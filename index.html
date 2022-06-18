@@ -8,6 +8,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
   <title>Responsive Landing Page</title>
 
 </head>
@@ -23,19 +25,20 @@
       </nav>
 
       <div class="flex">
-        <h1>Build The Community Your Fans Will Love</h1>
-        <p> Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
-          Create connections with your users as you engage in genuine discussion.
-        </p>
-        <button class="btn btn-primary">Get Started For Free</button>
+
+        <div>
+          <h1>Build The Community Your Fans Will Love</h1>
+          <p> Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+            Create connections with your users as you engage in genuine discussion.
+          </p>
+          <button class="btn btn-primary">Get Started For Free</button>
+        </div>
+
+        <div>
+          <img class="h-img" src="images/illustration-mockups.svg" alt="illustration-mockups">
+        </div>
+
       </div>
-
-      <div>
-        <img src="images/illustration-mockups.svg" alt="illustration-mockups">
-      </div>
-
-
-    </div>
   </header>
 
   <main>
@@ -56,7 +59,7 @@
 
       </div>
 
-      <div class="box flex">
+      <div class="box flex box-r-mobile">
 
         <div>
           <h2>Flowing Conversations</h2>
@@ -93,60 +96,51 @@
       <h2>Ready To Build Your Community?</h2>
       <button class="btn btn-primary btn-big">Get Started For Free</button>
     </div>
-
   </div>
 
   <footer>
-    <img src="images/logo.svg" alt="">
-    <div class="flex">
+    <div class="container">
+      <img src="images/logo.svg" alt="">
+      <div class="flex">
 
-      <div>
-        <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua
-          </li>
-          <li>+1-543-123-4567
-          </li>
-          <li>example@huddle.com
-          </li>
-        </ul>
-      </div>
+        <div class="flex align-start">
 
-      <div>
-        <ul>
-          <li>About Us
-          </li>
-          <li>What We Do
-          </li>
-          <li>FAQ
-          </li>
-        </ul>
-      </div>
+          <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua
+            </li>
+            <li>+1-543-123-4567
+            </li>
+            <li>example@huddle.com
+            </li>
+          </ul>
 
-      <div>
+          <ul>
+            <li>About Us
+            </li>
+            <li>What We Do
+            </li>
+            <li>FAQ
+            </li>
+          </ul>
 
-        <ul>
-          <li>Career</li>
-          <li>Blog</li>
-          <li>Contact Us
-          </li>
-        </ul>
+          <ul>
+            <li>Career</li>
+            <li>Blog</li>
+            <li>Contact Us
+            </li>
+          </ul>
 
-      </div>
+          <ul class="socials">
+            <li><a class="circle" href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a class="circle" href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="circle" href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
 
-      <div>
-        <ul>
-          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-        </ul>
-
-      </div>
-    </div>
-
-    <p>
-      &copy; Copyright 2018 Huddle. All rights reserved.
-    </p>
+          <p>
+            &copy; Copyright 2018 Huddle. All rights reserved.
+          </p>
+        </div>
   </footer>
 </body>
 
